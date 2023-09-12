@@ -1,4 +1,5 @@
-public class recurse {
+//Addition by recursion process
+public class recurse{
 
     public static int add(int x, int y) {
         int result = 0;
@@ -6,8 +7,8 @@ public class recurse {
             return x;
         } else {
             result = 1 + add(x, y - 1);/*
-                                        * recursion takes place here --> 2nd term goes on becoming zero whereas 1 gets
-                                        * added to result the same no of times what the value of y is at the start.
+                                        * recursion takes place here --> 2nd term(y) goes on becoming zero whereas 1 gets
+                                        * added to result, the same no of times what the value of y is at the start(in this case, 10).
                                         * When y==0, x gets returned, whereas the 1's added in the result also get
                                         * returned in the sum variable below
                                         */
