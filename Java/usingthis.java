@@ -4,7 +4,7 @@ public class usingthis {
 
     void add(int a, int b) {
         int c;
-        this.a = a;
+        this.a = a;//this is used to refer to class variables declared in the class, not inside a function.
         this.b = b;
         c = this.a + this.b;
 
