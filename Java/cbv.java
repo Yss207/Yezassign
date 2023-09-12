@@ -3,6 +3,7 @@ class Operation {
     int a, b;
 
     public static int add(int x, int y) {
+        //add function
         int z;
         z = x + y;
         return z;
@@ -13,7 +14,7 @@ class Operation {
         int b = 20;
 
         System.out.println("Numbers are: " + a + " & " + b);
-        int c = add(a, b);
+        int c = add(a, b);//passing the variables that contain the values to the function
 
         System.out.println("Addition of the numbers is: " + c);
     }
