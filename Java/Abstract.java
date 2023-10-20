@@ -44,5 +44,7 @@ class Abstract{
 }
 
 /*
- * Same program can be optimised with the help of constructors
+ * OUTPUT
+ * Area of triangle is: 12.5
+Area of rectangle is: 25
  */

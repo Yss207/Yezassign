@@ -173,3 +173,34 @@ class Salary{
 
     }
 }
+
+/*
+ * OUTPUT
+ * Select the choice as per your respective Designation: 
+1. Programmer
+2.Team Lead
+3.Assistant Project Manager
+4.Project Manager
+1
+Enter Employee ID: 
+5
+Enter Employee Mobile No: 
+123
+Enter Employee Name: 
+yash
+Enter Employee Mail ID: 
+xyz
+Enter address of Employee: 
+abcdef
+-----------------*******--------------
+Employee ID: 5
+Employee name is :yash
+Employee Mobile no is:123
+Employee mail id is: xyz
+Employee address is: abcdef
+-----------------*******--------------
+Enter your basic pay:
+10000
+Gross salary: 20700.0
+Net salary: 19490.0
+ */
