@@ -15,8 +15,8 @@ class tcf{
                  try {
                     int data = 50/0;
                  } catch (ArithmeticException e) {
-                    System.out.println(e);
-                 }
+                  System.out.println(e);
+               }
                 break;
 
                 case 2:
