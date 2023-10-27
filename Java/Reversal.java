@@ -23,3 +23,4 @@ public class Reversal
 }
 //Original.length basically calculates the number of letters in the string.
 /*i will be less than length of string by one value because... let's see: ABCD - Length is 4. Indexing however will start from 0 and will end at 3. So, we are doing the stuff.
+8*/
