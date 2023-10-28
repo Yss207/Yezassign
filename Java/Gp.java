@@ -59,7 +59,7 @@ class Gp{
 
             for(int z = 0; z<temp.length(); z++){
                 rev = temp.charAt(z) + rev;
-                if(temp==rev){
+                if(strng.get(k)==rev){
                     System.out.println("HELL");
                     count4++;
                     break;
